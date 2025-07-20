@@ -1,3 +1,6 @@
 [submodule "rmp/MotorControl"]
 	path = rmp/MotorControl
 	url = https://github.com/ROSMicroPy/rmp_pylib-MotorControl.git
+[submodule "rmp/MicroPyServer"]
+	path = rmp/MicroPyServer
+	url = https://github.com/ROSMicroPy/rmp_pylib-micropyserver.git
