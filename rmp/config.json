@@ -1,0 +1,30 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "motor": {
+    "default_pins": {
+      "step_pin": 18,
+      "dir_pin": 19,
+      "enable_pin": 20
+    },
+    "default_settings": {
+      "microsteps": 1,
+      "default_speed": 60,
+      "default_steps": 200
+    }
+  },
+  "web_interface": {
+    "title": "SmartStepper Control",
+    "description": "Control your stepper motor with direction and speed settings",
+    "speed_range": {
+      "min": 0,
+      "max": 1000
+    },
+    "steps_range": {
+      "min": 1,
+      "max": 10000
+    }
+  }
+} 

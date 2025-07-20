@@ -1,0 +1,10 @@
+{
+  "urls": [
+    ["rmp/SmartStepper.py", "github:ROSMicroPy/device-smartstepper/blob/main/src/SmartStepper.py"],
+    ["rmp/MotorControl.py", "github:ROSMicroPy/rmp_pylib-MotorControl/blob/main/MotorController.py"],
+    ["rmp/config.json", "github:ROSMicroPy/device-smartstepper/blob/main/config.json"],
+    ["rmp/drivers/stepper_driver.py", "github:ROSMicroPy/rmp_pylib-MotorControl/blob/main/drivers/stepper_driver.py"],
+    ["rmp/micropyserver.py", "github:ROSMicroPy/rmp_pylib-micropyserver/blob/master/micropyserver.py"]
+  ],
+  "version": "0.7"
+}
