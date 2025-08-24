@@ -1,13 +1,13 @@
 {
   "server": {
     "host": "0.0.0.0",
-    "port": 8080
+    "port": 80
   },
   "motor": {
     "default_pins": {
-      "step_pin": 18,
-      "dir_pin": 19,
-      "enable_pin": 20
+      "dir_pin": 8,
+      "step_pin": 9,
+      "enable_pin": 10
     },
     "default_settings": {
       "microsteps": 1,
