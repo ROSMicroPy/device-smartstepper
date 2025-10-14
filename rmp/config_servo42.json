@@ -1,0 +1,30 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "motor": {
+    "default_pins": {
+      "step_pin":6,
+      "dir_pin": 43,
+      "enable_pin": 5
+    },
+    "default_settings": {
+      "microsteps": 1,
+      "default_speed": 60,
+      "default_steps": 200
+    }
+  },
+  "web_interface": {
+    "title": "SmartServo42 Control",
+    "description": "Control your servo motor with position and speed settings",
+    "speed_range": {
+      "min": 0,
+      "max": 1000
+    },
+    "position_range": {
+      "min": 0,
+      "max": 180
+    }
+  }
+} 
