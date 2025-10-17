@@ -1,0 +1,11 @@
+{
+    "achilleshr.runonsave": {
+            
+        "commands": [
+            {
+                "match": "\\.py$",
+                "cmd": "echo \"saving '${relativeFile}' to device\" && mpremote cp ${relativeFile} :${relativeFile}"
+            }
+        ]
+    }
+}
