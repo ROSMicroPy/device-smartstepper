@@ -4,6 +4,10 @@
 [submodule "rmp/MicroPyServer"]
 	path = rmp/MicroPyServer
 	url = https://github.com/ROSMicroPy/rmp_pylib-micropyserver.git
-[submodule "mks-servo42c-10-python"]
-	path = mks-servo42c-10-python
-	url = https://github.com/ROSMicroPy/mks-servo42c-10-python.git
+
+[submodule "rmp/tmc5160"]
+	path = rmp/tmc5160
+	url = https://github.com/ROSMicroPy/tmc5160.git
+[submodule "rmp/mks_servo42c"]
+	path = rmp/mks_servo42c
+	url = https://github.com/ROSMicroPy/mks_servo42c.git
