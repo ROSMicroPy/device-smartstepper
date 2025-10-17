@@ -9,3 +9,6 @@
 [submodule "rmp/mks_servo42c"]
 	path = rmp/mks_servo42c
 	url = https://github.com/ROSMicroPy/mks_servo42c.git
+[submodule "rmp/tmc5160"]
+	path = rmp/tmc5160
+	url = https://github.com/ROSMicroPy/microPython_TMC5160.git
